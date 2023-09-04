@@ -19,11 +19,8 @@ button:last-child {
     margin-right: 70px;
 }
 .coloring-block {
-
     border: 1px solid black;
     box-sizing: border-box;
-    width: 20px;
-    height: 20px;
 }
 #drawing-box {
     margin: auto;
