@@ -8,5 +8,15 @@
     width: 80%;
     margin: auto;
     border: 1px solid black;
-    height: 400px;
+    height: 408px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+.coloring-block {
+    width: 10px;
+    height: 10px;
+    border: 1px solid gray;
+}
+
