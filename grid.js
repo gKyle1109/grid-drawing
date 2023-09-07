@@ -1,9 +1,18 @@
 const mainGrid = document.getElementById("container");
 const reset = document.getElementById("Reset");
+const sizeDis = document.getElementById("grid-size");
+const selectSize = document.querySelector("input");
+const size = selectSize.value;
+selectSize.addEventListener("input", () => {
+    sizeDis.textContent = selectSize.value + "X" + selectSize.value
+})
 function createGrid() {
     mainGrid.textContent = ""
     for (let i = 0; i < 3000; i++) {
     const newDiv = document.createElement("div");
+    newDiv.style.width = "size";
+    newDiv.style.height = "size";
+
     newDiv.classList.add("coloring-block");
     mainGrid.appendChild(newDiv)
     }

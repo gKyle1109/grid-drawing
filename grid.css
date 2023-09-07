@@ -15,11 +15,10 @@
     justify-content: center;
 }
 .coloring-block {
-    width: 10px;
-    height: 10px;
     border: 1px solid gray;
 }
 h1 {
     text-align: center;
 }
+
 
