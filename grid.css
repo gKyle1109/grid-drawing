@@ -1,19 +1,29 @@
-#button {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.button {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     margin-bottom: 20px;
 }
 #container {
-    width: 80%;
+    width: 50%;
     margin: auto;
+<<<<<<< HEAD
     border: 1px solid black;
     height: 408px;
     overflow: hidden;
+=======
+    border: 2px solid black; 
+>>>>>>> im-gettin-there
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+<<<<<<< HEAD
 .coloring-block {
     border: 1px solid gray;
 }
@@ -22,3 +32,11 @@ h1 {
 }
 
 
+=======
+.coloring-block{
+    border: 1px solid gray;
+}
+#bottom {
+    margin-top: 30px;
+}
+>>>>>>> im-gettin-there
